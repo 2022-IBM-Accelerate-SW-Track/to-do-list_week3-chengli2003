@@ -1,12 +1,11 @@
-import React, { Component } from "react";
 import "./About.css";
 import profile_pic from "../assets/profile_pic.jpg";
+import React, { Component } from "react";
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
         <div class="split left">
           <div className="centered">
             <img
@@ -18,10 +17,12 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Chengnan Li</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              I am an incoming sophomore majoring in computer science at
+              UW-Madison. My interests include basketball, playing piano,
+              watching TV Shows, and cooking. Fun fact: I have went skydiving
+              before.
             </div>
           </div>
         </div>
